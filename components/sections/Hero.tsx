@@ -5,7 +5,7 @@ import DecorativeCircle from "../ui/DecorativeCircle";
 export default function Hero() {
   return (
     <section aria-labelledby="hero-heading" className="relative overflow-hidden">
-      <div className="nn-container grid items-center gap-12 py-16 lg:grid-cols-[55%_45%] lg:gap-8 lg:py-24">
+      <div className="nn-container grid items-center gap-12 py-16 lg:grid-cols-[55fr_45fr] lg:gap-8 lg:py-24">
         <div>
           <h1
             id="hero-heading"

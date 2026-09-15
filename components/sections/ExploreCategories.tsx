@@ -30,11 +30,11 @@ export default function ExploreCategories() {
       aria-labelledby="categories-heading"
       className="relative overflow-hidden pb-24 pt-4"
     >
-      <div aria-hidden="true" className="absolute -left-44 top-10 hidden lg:block">
-        <DecorativeCircle variant="ring" size={300} ringWidth={44} />
+      <div aria-hidden="true" className="absolute -left-40 top-10 hidden lg:block">
+        <DecorativeCircle variant="ring" size={320} ringWidth={48} />
         <DecorativeCircle
           variant="outline"
-          size={200}
+          size={220}
           className="absolute -bottom-16 left-24"
         />
       </div>
