@@ -29,7 +29,7 @@ export default function MobileApplication() {
             width={440}
             height={880}
             sizes="(max-width: 1024px) 60vw, 22vw"
-            className="h-auto w-1/2 -rotate-6"
+            className="h-auto w-1/2 -rotate-[5deg]"
           />
           <Image
             src="/assets/images/section-05-mobile-phone-front.png"
@@ -37,7 +37,7 @@ export default function MobileApplication() {
             width={440}
             height={880}
             sizes="(max-width: 1024px) 60vw, 22vw"
-            className="relative z-10 -ml-10 h-auto w-1/2 rotate-6"
+            className="relative z-10 -ml-10 h-auto w-1/2 rotate-[5deg]"
           />
         </div>
 
