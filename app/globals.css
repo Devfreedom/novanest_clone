@@ -21,6 +21,11 @@
   --color-btn-hover-fill: #bdd6c9;
   --color-btn-hover-stroke: #f8fffe;
 
+  /* Newsletter card yellows (reference family) */
+  --color-news-deep: #ffc93f;
+  --color-news-mid: #ffd15c;
+  --color-news-soft: #ffe082;
+
   /* Figma card shadow style */
   --shadow-card: 0 8px 32px rgba(15, 46, 43, 0.12);
 
