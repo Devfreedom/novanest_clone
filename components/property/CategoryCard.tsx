@@ -25,10 +25,10 @@ export default function CategoryCard({
           className="aspect-[4/3] w-full object-cover"
         />
       </div>
-      <h3 className="mt-4 text-center text-lg font-medium text-ink">
+      <h3 className="mt-4 text-center text-base font-semibold text-ink">
         {title}
       </h3>
-      <p className="mt-1 pb-2 text-center text-[13px] text-fog">{count}</p>
+      <p className="mt-1 pb-2 text-center text-xs text-fog">{count}</p>
     </article>
   );
 }

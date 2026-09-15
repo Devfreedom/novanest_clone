@@ -43,13 +43,13 @@ export default function ExploreCategories() {
         <div className="grid items-end gap-6 lg:grid-cols-[220px_1fr_auto] lg:gap-10">
           <h2
             id="categories-heading"
-            className="text-2xl font-bold leading-snug text-white"
+            className="nn-h3 text-cream"
           >
             Explore
             <br />
             Categories
           </h2>
-          <p className="max-w-[520px] text-[13px] leading-relaxed text-sage-dim">
+          <p className="nn-small max-w-[520px] text-sage-dim">
             Start exploring at NovaNest Estates and navigate our extensive
             range of categories to find the living space of your dreams. Each
             carefully curated, browse through diverse types of homes to
