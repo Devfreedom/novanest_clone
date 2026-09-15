@@ -9,7 +9,7 @@ export default function Hero() {
         <div>
           <h1
             id="hero-heading"
-            className="max-w-[540px] text-[clamp(2.5rem,4.2vw,3.5rem)] font-bold leading-[1.05] tracking-tight text-cream"
+            className="max-w-[640px] text-[clamp(2.75rem,calc(1.75rem+3.5vw),4rem)] font-bold leading-[1.3] tracking-tight text-cream"
           >
             Discover your nest in
             <br />
@@ -17,7 +17,7 @@ export default function Hero() {
             <br />
             living.
           </h1>
-          <p className="mt-6 max-w-[520px] text-[13px] leading-[1.6] text-sage-dim">
+          <p className="nn-small mt-6 max-w-[520px] text-sage-dim">
             Our exquisite properties blend timeless elegance with modern
             comfort, offering an oasis of serenity amidst the bustling world
             outside. Come, embark on a journey of discovery, and let NovaNest

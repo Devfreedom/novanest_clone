@@ -1,6 +1,35 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------
+   NovaNest design tokens (Tailwind v4 @theme).
+   Figma-canonical names first; pre-existing Section 1 aliases kept
+   so built components keep working.
+------------------------------------------------------------------ */
 @theme {
+  /* Figma color styles */
+  --color-white: #ffffff;
+  --color-tiffany: #a7c4b5;
+  --color-dark-slate-green: #12372e;
+  --color-sunglow: #f7c948;
+  --color-feldgrau: #5f7570;
+  --color-mint-cream: #f8fffe;
+  --color-background: #0a241e;
+
+  /* Figma button styles (hover values are working assumptions — see report) */
+  --color-btn-fill: #a7c4b5;
+  --color-btn-stroke: #a7c4b5;
+  --color-btn-hover-fill: #bdd6c9;
+  --color-btn-hover-stroke: #f8fffe;
+
+  /* Figma card shadow style */
+  --shadow-card: 0 8px 32px rgba(15, 46, 43, 0.12);
+
+  /* Common border radii */
+  --radius-btn: 10px;
+  --radius-media: 12px;
+  --radius-card: 16px;
+
+  /* Section 1 aliases (identical values to the Figma styles above) */
   --color-pine: #12372e;
   --color-pine-deep: #0a241e;
   --color-pine-ring: #1d443f;
@@ -38,4 +67,63 @@ body {
   .nn-container {
     padding-inline: 2.5rem;
   }
+}
+
+/* ------------------------------------------------------------------
+   Figma typography scale (font/state/line-height only; family inherits
+   the project Geist fallback — see report on the "Ag" reference).
+------------------------------------------------------------------ */
+.nn-h1 {
+  font-size: 64px;
+  line-height: 130%;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.nn-h2 {
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+.nn-h3 {
+  font-size: 24px;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+.nn-h4 {
+  font-size: 21px;
+  line-height: 130%;
+  font-weight: 600;
+}
+
+.nn-h5 {
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.nn-h6 {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.nn-lead {
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.nn-body {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.nn-small {
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 400;
 }

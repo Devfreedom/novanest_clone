@@ -14,8 +14,8 @@ export default function CategoryCard({
   imageAlt,
 }: CategoryCardProps) {
   return (
-    <article className="rounded-2xl bg-white p-3 shadow-[0_18px_40px_-18px_rgba(6,20,17,0.45)]">
-      <div className="overflow-hidden rounded-xl">
+    <article className="rounded-card bg-white p-3 shadow-card">
+      <div className="overflow-hidden rounded-media">
         <Image
           src={imageSrc}
           alt={imageAlt}

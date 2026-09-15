@@ -1,6 +1,5 @@
 import Header from "../components/layout/Header";
 import Hero from "../components/sections/Hero";
-import ExploreCategories from "../components/sections/ExploreCategories";
 
 export default function Home() {
   return (
@@ -8,7 +7,6 @@ export default function Home() {
       <Header />
       <main className="overflow-x-clip">
         <Hero />
-        <ExploreCategories />
       </main>
     </div>
   );

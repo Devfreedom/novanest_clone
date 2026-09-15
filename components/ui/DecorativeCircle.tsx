@@ -8,7 +8,7 @@ interface DecorativeCircleProps {
 const variantStyles: Record<string, string> = {
   solid: "bg-pine-ring",
   ring: "border-pine-ring",
-  outline: "border border-white/40",
+  outline: "border border-white/20",
   gold: "bg-gold",
 };
 
