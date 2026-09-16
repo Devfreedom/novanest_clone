@@ -22,7 +22,7 @@ export default function Header() {
             alt="NovaNest"
             width={128}
             height={36}
-            priority
+            loading="eager"
             className="h-9 w-auto"
           />
         </a>

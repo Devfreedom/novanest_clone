@@ -56,7 +56,7 @@ export default function Hero() {
             alt="Modern dark luxury two-storey house with warm interior lighting, landscaped gardens and stone steps"
             width={680}
             height={620}
-            priority
+            loading="eager"
             sizes="(max-width: 1024px) 100vw, 45vw"
             className="relative z-10 h-auto w-full"
           />
