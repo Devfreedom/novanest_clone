@@ -3,6 +3,9 @@ import Hero from "../components/sections/Hero";
 import ExploreCategories from "../components/sections/ExploreCategories";
 import PopularAds from "../components/sections/PopularAds";
 import MobileApplication from "../components/sections/MobileApplication";
+import Testimonials from "../components/sections/Testimonials";
+import Cta from "../components/sections/Cta";
+import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +16,10 @@ export default function Home() {
         <ExploreCategories />
         <PopularAds />
         <MobileApplication />
+        <Testimonials />
+        <Cta />
       </main>
+      <Footer />
     </div>
   );
 }
